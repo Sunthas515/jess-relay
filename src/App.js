@@ -8,7 +8,7 @@ class LambdaDemo extends Component {
     return (
       <div className="App">
         <h1>CYA Cancer Baton</h1>
-        <input type="text" name="runnerNames" value={input} onInput={e => setInput(e.target.value)} />
+        <input type="text" name="runnerNames" value={name} onInput={e => setInput(e.target.value)} />
         <h2>{name}</h2>
       </div>
     )
